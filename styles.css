@@ -2,12 +2,14 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+   
 }
 
 
-a{ 
+a {
     color: #11999E;
 }
+
 h1 {
     color: #66BFBF;
     font-size: 5.626rem;
@@ -15,6 +17,7 @@ h1 {
     font-family: 'Sacramento', cursive;
 
 }
+
 h2 {
     font-weight: normal;
     color: #66BFBF;
@@ -33,30 +36,55 @@ h3 {
     position: relative;
 
     padding-top: 100px;
+}
 
-
-
+.sumbit-button{
+    background-color: #66BFBF;
+    border-radius: 16px 16px;
+    margin-bottom: 20px;
+    width: 120px;
+    height: 40px;
+    border: 0;
 
 }
-.skills{
-    
-}
-.middle-container {
 
+.btn{
+    color: white;
 }
+
+hr{
+    color: #EAF6F6;
+    border-style: dotted none none;
+    width: 70px;
+    border-width: 6px;
+}
+.skills {}
+
+.middle-container {}
 
 .MyPic {
-    width: 100px;
-    height: 100px;
-}
+    width: 200px;
 
-.bottom-container {}
+}
+ 
+
+.bottom-container {
+    position: relative;
+    top: 20px;
+    background-color: #66BFBF;
+    padding: 100px;
+    margin-bottom: 0px;
+
+}
 
 .pro {
     text-decoration: underline;
 }
 
-
+.Name{
+    color: white;
+    margin-top: 50px;
+}
 
 .first-h2 {
     position: relative;
@@ -76,21 +104,30 @@ h3 {
     top: 50px;
     right: 300px;
 }
-.hackerpic{
-width: 25%;
-float: left;
-margin-right: 30px;
+
+.hackerpic {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
 
 }
-.Sun{
+
+.Sun {
     width: 25%;
     float: right;
-margin-left: 30px;
- 
+    margin-left: 30px;
+
 }
-.skill-row{
+
+.footer-link{
+   margin-left: 30px;
+   margin-right: 30px;
+   margin-bottom: 50px;
+    
+}
+.skill-row {
     text-align: left;
-   margin: 100px auto 100px auto;
-line-height: 2;
-   width: 50%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+    width: 50%;
 }
